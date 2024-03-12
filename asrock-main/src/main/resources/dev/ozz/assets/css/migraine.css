@@ -1,0 +1,72 @@
+/*!
+ * BootstrapFX v0.1.0
+ * Copyright 2015 Andres Almiray
+ */
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+* {
+    -fx-font-family: 'sans-serif';
+}
+.label{
+    -fx-text-fill: black;
+}
+
+.button{
+    -fx-background-color: #1b5dbe;
+    -fx-text-fill: white;
+    -fx-background-radius: 13;
+    -fx-border-radius: 13;
+    
+}
+.button:hover{
+    -fx-background-color: rgb(33, 106, 216);
+}
+.button:focused{
+    -fx-background-color: rgb(37, 123, 252);
+}
+.button:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+.text-field{
+    -fx-background-radius: 13;
+}
+/* custom-----------------> */
+.a-main-background{
+    -fx-background-color: white;
+}   
+.a-main-error{
+    -fx-fill: rgb(207, 0, 0);
+}
+.a-main-border{
+    -fx-border-color: gray;
+}
+.vbox-color-blue{
+    -fx-background-color: rgb(27, 93, 190);
+    /* -fx-background-radius:50 ; */
+  
+}
+.label-white{
+    -fx-text-fill:white;
+}
+.second-background{
+    -fx-background-color: rgb(27, 93, 190);
+    -fx-background-radius: 13;
+    -fx-border-radius: 13;
+    -fx-border-color: black;
+}
+.top-borderpain{
+    -fx-background-color: rgb(27, 93, 190);
+    -fx-border-color: black;
+}
+
+
+
+
+
+
